@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300');
+*{font-family: Poppins;}
+
+input[type=text], input[type=submit], input[type=email], input[type=password]{
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px 20px;
+    border-radius: 4px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+table{
+	border: 1px solid black;
+	padding: 90px;
+	border-radius: 10px;
+	background-color: white;
+}
+textarea{
+    width: 100%;
+    resize: none;
+    height: 150px;
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+	resize: none;
+}
+input[type=submit]{
+    color: white;
+    border: none;
+    margin: 8px 0;
+    cursor: pointer;
+    padding: 14px 20px;
+    border-radius: 4px;
+    background-color: #2E64FE;
+}
+h1, h6{text-align: center; color: black;}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('dw_img/473.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+input[type=submit]:hover{
+    background-color: white;
+    border: 1px solid #2E64FE;
+    color: #2E64FE;
+}
+div{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+img.avatar {
+    width: 40%; border-radius: 50%;}
+.container {padding: 16px;}
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 80%;
+}
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover, .close:focus {
+    color: red; cursor: pointer;
+}
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+   
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+@media screen and (max-width: 300px) {
+    span.psw {display: block; float: none;}
+    .cancelbtn {width: 100%;}
+}
+.loader {
+position: fixed;
+left: 0px;
+top: 0px;
+width: 100%;
+height: 100%;
+z-index: 9999;
+background: url(dw_img/Preloader_5.gif) center no-repeat #fff;
+}
+#myDiv {display: none; text-align: center;}*/
+.button {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+}
+.button a{text-decoration: none;}
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.button span:after {
+    content: '\00AB';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -10px;
+    transition: 0.5s;
+}
+.button:hover span {padding-left: 15px; color: #2481BA;}
+.button:hover span:after {
+    opacity: 1;
+    left: 0;
+}
+a{text-decoration:none;}
+.button:after{content:'Iniciar sessão';}
+.button:hover:after{content:'Voltar'; color: #2481BA;}
+h1{text-align:center;}
+th{padding-bottom: 50px;}
+p{text-align: center;}
+table{margin: auto;}
+div #id01{width: 100%}

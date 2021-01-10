@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300');
+*{
+	font-family: Poppins;
+}
+
+#menu a{
+    position: absolute;
+    left: -150px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 150px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+	margin-top: 7%;
+}
+
+#menu a:hover{
+	left: 0;
+}
+
+#ped{
+    top: 20px;
+    background-color: black;
+}
+
+#col{
+    top: 80px;
+    background-color: black;
+}
+
+table#cr tr:nth-child(even){
+    background-color: #eee;
+}
+
+table#cr tr:nth-child(odd){
+   background-color:#fff;
+}
+
+table#cr th{
+    background-color: #white;
+    color: black;
+	padding: 30px;
+}
+
+table#cr td{
+	padding: 30px;
+}
+
+.tb_celula_fixa td{
+   width: 200px;
+   height: 80px;
+   overflow: auto;
+   text-decoration:none;
+}
+
+table#cr{
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: white;
+}

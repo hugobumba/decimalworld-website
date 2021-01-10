@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300');
+*{font-family: Poppins;}
+input[type=text], input[type=submit]{
+	width: 100%;
+	margin: 8px 0;
+	padding: 10px;
+	border-radius: 4px;
+	font-family: Poppins;
+	display: inline-block;
+	box-sizing: border-box;
+	border: 1px solid black;
+}
+input[type=text]{
+	padding: 20px;
+	font-size: 20px;
+}
+table{
+	padding: 50px;
+	border-radius: 10px;
+	background-color: white;
+	border: 1px solid black;
+}
+textarea{
+	width: 100%;
+	resize: none;
+    resize: none;
+    height: 200px;
+    padding: 70px;
+	font-size: 20px;
+    border-radius: 4px;
+	font-family: Poppins;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+input[type=submit]{
+    color: white;
+    border: none;
+    margin: 8px 0;
+    padding: 14px 20px;
+    border-radius: 4px;
+    border: 1px dotted black;
+    background-color: #2E64FE;
+}
+input[type=submit]:hover{
+    background-color: White;
+    border: 1px solid #2E64FE;
+    color: #2E64FE;
+}
+h1, h6{
+	text-align: center;
+}
+body{
+	font-family: Poppins;
+	background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('dw_img/646.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+input[type=submit], input[type=file], input[type=text], select{
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px 20px;
+    border-radius: 4px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none;
+}
